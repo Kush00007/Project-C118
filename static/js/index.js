@@ -129,7 +129,7 @@ $(document).ready(function(){
 
     //  if SAVE button is clicked, hit a post request on the API
 
-    $('save_button').click(function(){
+    $('#save_button').click(function(){
 
         console.log('save button is clicked')
 
