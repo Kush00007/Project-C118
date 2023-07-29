@@ -45,7 +45,7 @@ def save():
     # open the file in the 'append' mode
     with open("./static/assets/updated_product_dataset.csv", "a") as f:
     # Log the data in the file
-        f.write(data_entry)
+        f.write(data_entry + '\n')
     # return a success message
     return jsonify({'status' : 'success' , 
                     'message' : 'Data Logged'})
